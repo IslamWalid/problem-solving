@@ -32,7 +32,6 @@ int main() {
                     dict.insert(buffer);
                     buffer = "";
                 }
-                continue;
             }
         }
         if (buffer != "" && word[word.length() - 1] != '-') {
